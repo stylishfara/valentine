@@ -143,6 +143,9 @@
             justify-content: center;
             align-items: center;
             z-index: 100;
+            flex-direction: column;
+            overflow-y: auto;
+            padding: 20px;
         }
 
         .thank-you-content {
@@ -164,6 +167,19 @@
         .thank-you-content .emoji {
             font-size: 80px;
             margin: 20px 0;
+        }
+
+        .couple-photo {
+            margin-top: 20px;
+        }
+
+        .couple-photo img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 4px solid white;
         }
 
         .back-btn {
@@ -247,6 +263,9 @@
                 <span class="sparkle">✨</span>
             </div>
             <button class="back-btn" onclick="goBack()">← Back</button>
+        </div>
+        <div class="couple-photo">
+            <img src="https://github.com/stylishfara/valentine/blob/main/images/ISC_1229.jpg?raw=true" alt="Us">
         </div>
     </div>
 
